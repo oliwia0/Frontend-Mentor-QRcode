@@ -33,3 +33,35 @@ p {
     font-weight: 700;
     font-size: 20px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+    
+    img {
+        border-radius: 25px 25px 25px 25px;
+        width: 50vw;
+    
+    }
+    
+    div {
+        background-color: hsl(0, 0%, 100%);
+        padding: 15px;
+        width: 70vw;
+        border-radius: 25px 25px 25px 25px;
+        text-align: center;
+        transform: translateX(5%);
+        margin-top: 13vh;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    h1 {
+        font-weight: 900;
+    }
+    
+    p {
+        color: hsl(220, 15%, 55%);
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+
+}
